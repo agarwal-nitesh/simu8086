@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>8086</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script type="text/javascript" src="/script.js"></script>
+  </head>
+  
+  <body>
+  	<header><h4>The 8086 assembler</h4></header>
+    	
+    <div id="opkoder">
+   		<h4>OPKODE</h4>
+   		<div id="opkd"></div>
+   	</div>
+   		
+   	<div id="registerx">
+   	  <h4>REGEXTERS</h4>
+   		<table id="regs"></table>
+   	</div>
+    	
+   	<div id="flags">
+   		<h4>FLAGS</h4>
+   		<table id="flg"></table>
+   	</div>
+   	
+   	<div id="memory">
+   		<h4>MEMRI</h4>
+   		<table id="memro"></table>
+   	</div>
+    
+    <div id="stak">
+						<h4>STAK</h4>
+						<table id="stk"></table>
+    </div>
+				
+    <form method="post">
+      <textarea name="assembler" id="assm" cols="25" rows="20" autofocus></textarea>
+    </form>
+				<input id="gno" type="submit" value="Get Opcode" class:"runcode">
+    <input id='sno' type="submit" value="Reset" class:"resete">
+    <h4></h4>
+  </body>
+</html>

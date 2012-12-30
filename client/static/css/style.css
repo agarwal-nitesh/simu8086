@@ -1,0 +1,70 @@
+body{
+background-color:#D3D8E8;
+}
+h4,table{color:#3b5999;}
+
+#assm{
+	position:absolute;
+	top:100px;
+}
+
+#opkoder{
+  color:#3b5999;
+	position:absolute;
+	left:350px;
+	font-weight:bold;
+}
+#registerx{
+	position:absolute;
+	left:550px;
+	top:61px;
+	color:#3b5999;
+  font-weight:bold;
+}
+#flags{
+	position:absolute;
+	left:750px;
+	top:61px;
+	color:#3b5999;
+	font-weight:bold;
+}
+#memory{
+	position:absolute;
+	left:950px;
+	top:61px;
+	color:#3b5999;
+	font-weight:bold;
+}
+#stak{
+ position:absolute;
+	left:1150px;
+	top:61px;
+	color:#3b5999;
+	font-weight:bold;
+}
+#opkd{
+	position:relative;
+}
+
+#regs{
+	position:relative;
+	left:30px;
+}
+
+#flg{
+	position:relative;
+	left:20px;
+}
+#memro{
+	position:relative;
+	left:0px;
+
+}
+#stk{
+ position:relative;
+	left:0px;
+}
+#testpurp{
+position: absolute;
+top:800px;
+}
